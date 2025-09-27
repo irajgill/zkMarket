@@ -1,0 +1,9 @@
+{
+  "dataset": "Cryptocurrency Prices",
+  "description": "Daily crypto price data",
+  "data": [
+    {"symbol": "BTC", "price": 109000, "volume": 2500000000, "date": "2025-09-27"},
+    {"symbol": "ETH", "price": 3800, "volume": 1200000000, "date": "2025-09-27"},
+    {"symbol": "SOL", "price": 180, "volume": 450000000, "date": "2025-09-27"}
+  ]
+}

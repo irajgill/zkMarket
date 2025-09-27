@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2025-09-27T16:07:42.631Z",
+    "filePath": "./sample-data/weather.json",
+    "datasetName": "Global Weather Data 2024",
+    "uploader": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "lighthouseCID": "bafkreihszone434ppqfqvi6n5lnyziw7tzupu7qs3tcdg24qxrd7xsj7pq",
+    "synapsePieceCID": "",
+    "merkleRoot": "0x03b7698062ff25d474f2b142a91ce96a46b3039b668c06a0651fecefd86922d5",
+    "datasetId": "0x8b9147dca06c56f83e4b0aac1bc483ab099d07c1a3c9cda4624820da32be8ee0"
+  },
+  {
+    "timestamp": "2025-09-27T16:08:33.216Z",
+    "filePath": "./sample-data/weather.json",
+    "datasetName": "Global Weather Data 2024",
+    "uploader": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "lighthouseCID": "bafkreiftqk33l5ora3nhmix6stqlxf6jhfsv5s7ibc7jxibsrelegp5zvm",
+    "synapsePieceCID": "",
+    "merkleRoot": "0x03b7698062ff25d474f2b142a91ce96a46b3039b668c06a0651fecefd86922d5",
+    "datasetId": "0x7d530db758c7f10b30cbac9e03e86ac2c0fff5687cb668b139e1c6158236c783"
+  },
+  {
+    "timestamp": "2025-09-27T16:33:10.868Z",
+    "filePath": "./sample-data/weather.json",
+    "datasetName": "Global Weather Data 2024",
+    "uploader": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "lighthouseCID": "bafkreigyikh3lr45atzl6k7iusttai4irt7md5tbudzrh7myzwotwnshka",
+    "synapsePieceCID": "",
+    "merkleRoot": "0x03b7698062ff25d474f2b142a91ce96a46b3039b668c06a0651fecefd86922d5",
+    "datasetId": "0x2a642de30a6df332e3fd0266be2b1f9feb83969ef634f1c5bc8928914fb87d41"
+  },
+  {
+    "timestamp": "2025-09-27T19:22:09.299Z",
+    "filePath": "./sample-data/weather.json",
+    "datasetName": "Global Weather Data 2024",
+    "uploader": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "lighthouseCID": "bafkreihyyins3l3kz56q4mdc6ftq6zbhbkgvvaqz3blyr4qzkve7c2xduq",
+    "synapsePieceCID": "",
+    "merkleRoot": "0x03b7698062ff25d474f2b142a91ce96a46b3039b668c06a0651fecefd86922d5",
+    "datasetId": "0x13b71ee33157f6fb72f29166d9e96ed17d3fa2612384a19690bde185b05b8a67"
+  },
+  {
+    "timestamp": "2025-09-27T19:24:34.306Z",
+    "filePath": "./sample-data/weather.json",
+    "datasetName": "Global Weather Data 2024",
+    "uploader": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "lighthouseCID": "bafkreibtquhofomye3acik7nxljsg63qbhkah5xilpbfbhhnx6uk2r2dnq",
+    "synapsePieceCID": "",
+    "merkleRoot": "0x03b7698062ff25d474f2b142a91ce96a46b3039b668c06a0651fecefd86922d5",
+    "datasetId": "0xa7334bc020311f6254ec26ca246ca304bda69596d19e49b1959676cd5d543736"
+  },
+  {
+    "timestamp": "2025-09-27T19:27:24.044Z",
+    "filePath": "./sample-data/crypto-prices.json",
+    "datasetName": "Crypto Price Data",
+    "uploader": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+    "lighthouseCID": "bafkreigrzzeref5kcegu2zeu2tk2waqtnfsokp2yf7fz354bu42k3jxwzq",
+    "synapsePieceCID": "",
+    "merkleRoot": "0xbd95b42f8fa8810b601444fd8451f09b53b1f24e188b0023ed2b23d87469bf53",
+    "datasetId": "0xb16204ccdc2d6a5506d07c4dd838961ba90f3ff0e03c2eb54f90deb7180e4b7f"
+  }
+]

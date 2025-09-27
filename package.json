@@ -1,0 +1,63 @@
+{
+  "name": "zk-cross-chain-marketplace",
+  "version": "1.0.0",
+  "description": "Production-ready ZK-powered cross-chain data marketplace with Filecoin warm storage, Lighthouse token gating, Self zk identity, Pyth oracles & 1inch Fusion+",
+  "main": "index.js",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "test:coverage": "forge coverage",
+    "test:gas": "forge test --gas-report",
+    "deploy:local": "forge script script/Deploy.s.sol --fork-url http://localhost:8545 --broadcast",
+    "deploy:sepolia": "forge script script/Deploy.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --verify",
+    "deploy:base-sepolia": "forge script script/Deploy.s.sol --rpc-url $BASE_SEPOLIA_RPC_URL --broadcast --verify",
+    "seed": "forge script script/SeedDemo.s.sol --fork-url http://localhost:8545 --broadcast",
+    "start:anvil": "anvil --host 0.0.0.0 --port 8545",
+    "start:offchain": "concurrently \"npm run start:uploader\" \"npm run start:relayer\" \"npm run start:rng\" \"npm run start:settlement\"",
+    "start:uploader": "cd offchain && npx ts-node uploader.ts",
+    "start:relayer": "cd offchain && npx ts-node price-relayer.ts",
+    "start:rng": "cd offchain && npx ts-node rng-coordinator.ts",
+    "start:settlement": "cd offchain && npx ts-node settlement-broker.ts",
+    "start:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd frontend && npm install && cd ..",
+    "clean": "forge clean && rm -rf frontend/.next",
+    "lint": "cd frontend && npm run lint",
+    "format": "forge fmt"
+  },
+  "keywords": [
+    "zk-proofs",
+    "cross-chain",
+    "data-marketplace",
+    "filecoin",
+    "lighthouse",
+    "pyth",
+    "1inch-fusion",
+    "self-protocol"
+  ],
+  "author": "ZK Marketplace Team",
+  "license": "MIT",
+  "dependencies": {
+    "@filoz/synapse-sdk": "^0.28.0",
+    "@lighthouse-web3/sdk": "^0.3.7",
+    "@pythnetwork/pyth-evm-js": "^1.83.0",
+    "@selfxyz/core": "^1.0.8",
+    "@selfxyz/qrcode": "^1.0.11",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "ethers": "^6.8.0",
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/ws": "^8.5.0",
+    "concurrently": "^8.2.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
